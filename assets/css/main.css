@@ -293,7 +293,7 @@ section {
     font-family: var(--font-primary);
     font-size: 14px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     white-space: nowrap;
     transition: 0.3s;
@@ -444,7 +444,7 @@ section {
     font-family: var(--font-primary);
     font-size: 15px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgb(255, 255, 255);
     white-space: nowrap;
     text-transform: uppercase;
     transition: 0.3s;
@@ -1669,7 +1669,7 @@ section {
 
 .hero .carousel-item::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.7)
   position: absolute;
   inset: 0;
 }
